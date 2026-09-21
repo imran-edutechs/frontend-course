@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./engine.js" defer></script>
+</head>
+
+<body>
+    <h1 class="text-center  my-2 text-2xl font-semibold">Welcome to HRM</h1>
+    <div class="mx-auto max-w-2xl my-6 flex flex-col gap-2">
+        <input class="border-2 border-black myClass  p-2 basis-[50%]" type="text" name="emp-name" id="emp-name"
+            placeholder="Enter Employee Name">
+        <input class="border-2 p-2 basis-[50%]" type="text" name="emp-phone" id="emp-phone"
+            placeholder="Enter Employee Phone Number">
+        <select class="border-2 p-2 basis-[50%]" name="role" id="emp-role">
+            <option value="engineer">Enginner</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="tester">Tester</option>
+        </select>
+        <button id="emp-add" class=" bg-green-500 p-2 text-white hover:bg-green-700">Add</button>
+    </div>
+
+    <table class="mx-auto w-full max-w-2xl my-6 border" id="emp-table">
+ 
+    </table>
+
+</body>
+
+</html>
