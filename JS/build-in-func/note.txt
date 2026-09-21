@@ -3,10 +3,8 @@
 - find
 - filter 
 - map
-- foretch
-- reverse
-- spread operator
-- Class and Object
+
+
 
 
 
